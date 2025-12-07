@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/templates.css">
+    <title>CodeHck | Templates</title>
+</head>
+<body>
+        <nav>
+        <div class="logo">
+            <h3><img src="../img/logo.png" alt="logo"><a href="../index.html">CodeHack</a></h3>
+        </div>
+        <div class="links">
+            <a href="#">Resources</a>
+            <a href="#">Support 💗</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="templates">
+            <a href="pages/templates.html">Upload 📤</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <h1>Select type of template and download!</h1>
+    <div class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="web">Web</button>
+        <button class="filter-btn" data-category="python">Python</button>
+        <button class="filter-btn" data-category="sql">SQL</button>
+        <button class="filter-btn" data-category="php">PHP</button>
+    </div>
+
+    <div class="gallery">
+        <div class="template-card" data-category="web">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>Portfolio Website</h3>
+            <p>Responsive HTML/CSS portfolio template</p>
+            <a href="templates/portfolio.zip" download>Download</a>
+        </div>
+
+        <div class="template-card" data-category="python">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>Python Script</h3>
+            <p>Basic Python automation script</p>
+            <a href="templates/python_script.zip" download>Download</a>
+        </div>
+
+        <div class="template-card" data-category="sql">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>Database Schema</h3>
+            <p>MySQL database schema template</p>
+            <a href="templates/db_schema.zip" download>Download</a>
+        </div>
+
+        <div class="template-card" data-category="php">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>Login System</h3>
+            <p>PHP login and registration template</p>
+            <a href="templates/login_system.zip" download>Download</a>
+        </div>
+
+        <div class="template-card" data-category="web">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>E-commerce Template</h3>
+            <p>HTML/CSS e-commerce layout</p>
+            <a href="templates/ecommerce.zip" download>Download</a>
+        </div>
+
+        <div class="template-card" data-category="python">
+            <img src="../img/example.jpg" alt="example.jpg">
+            <h3>Data Analysis</h3>
+            <p>Pandas & Matplotlib data analysis template</p>
+            <a href="templates/data_analysis.zip" download>Download</a>
+        </div>
+    </div>
+
+    <script src="../script/script.js"></script>
+    <script src="../script/filter.js"></script>
+</body>
+</html>
